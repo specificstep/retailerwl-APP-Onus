@@ -1,0 +1,184 @@
+<resources>
+
+
+    <string name="app_name">Onus Networks</string>
+
+
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="str_services">Specific Step’s service profile is Virtual, various, and versatile type. The primary
+service profile includes services like:
+</string>
+    <string name="str_services1">\u25CF Prepaid Mobile Recharge Service.</string>
+    <string name="str_services2">\u25CF DTH account recharge by using DTH recharge API</string>
+    <string name="str_services3">\u25CF Data card account refill and recharge</string>
+    <string name="str_services4">\u25CF Air Ticket booking service</string>
+    <string name="str_services5">\u25CF Hotel Booking service</string>
+    <string name="str_services6">\u25CF Long distance Bus ticket booking service </string>
+    <string name="str_services_">Specific Step offers a gamut of all-inclusive Mobile Recharge Application and  Services like Online Mobile Recharge API that provides nonstop online service connectivity from the cellular operators across India to the target point of sale.</string>
+    <string name="str_services_long_text">Specific Step supports balance recharge for all leading service providers  within India in mobile, DTH by using Online Mobile Recharge API, and DATA  card service providers.With Specific Step, Prepaid Recharge process has  upgraded into a hassle-free and easy to manage method for the service pro- vider as well as for its target consumer lines. Specific Step with its manifold  functionalities can good back end support for exponential improvement in  operator line efficiency, generating additional revenue, and by providing well- organized 24x7 service to the subs-cribers. Consumers, on the other hand,  enjoy a safe, suitable means of buying prepaid services at retail points and self- service kiosks connected to the centrally located Specific Step server.</string>
+    <string name="str_services_text2">A quick synopsis of the multiple rewards of getting connected with  Specific Step :</string>
+    <string name="str_long_text">Specific Step ropes wide-ranging Retail POS hardware (PC and Mobile) and wire connectivity with different retailer locations. The Specific Step special  software at the server coordinates the selling of mobile top up and instantly recharges to different range of wireless handheld POS terminals located at  various retailer points.</string>
+    <string name="str_name">Name</string>
+    <string name="str_email">Email Id</string>
+    <string name="str_sub">Subject</string>
+    <string name="str_message">Type your message Here</string>
+    <string name="str_send">Send</string>
+    <string name="str_abt_1">A business venture harbored on technology expanded for tomorrow’s  convenience.</string>
+    <string name="str_abt_2">Specific Step is one of the largest one-point recharge service providers for  Mobile Rechargevia mobile recharge software, Data Card Recharge, DTH  Recharge, Bill Payments, Air-Ticket Booking, Bus Ticket Booking, and Hotel Booking requirement within Indian Territory.Specific Step has introduced the  ultra cool system of electronic virtual distribution (using WEB/SMS) of services  like refill of Prepaid Airtime, DTH/TV Recharges, Air/Bus Tickets, Bill/Utility pay- ments on behalf of service providers via Mobile Recharge API. Specific  Steps  technology enabled transaction platform maintains and processes successfully   around 1 million customer transactions monthly, with more than 10,000  customer  touch points.</string>
+    <string name="str_abt_3">Specific Step was launched in market on January 2012, the business initiative  was primarilyinspired by a Indian business entrepreneur for rendering efficient  and cost effective retail recharge services for Indian mass prepaid users along  with other-services via an efficient and technology supported virtual network  of service distribution and payment collection. Specific Step was effectively  operating in market since 2012 with its Prepaid Recharge API.</string>
+    <string name="str_abt_4">Mr Ravi Palan, the founder of this unique business initiative has acquired vast  knowledge inmobile/cellular industry since its inception in India in terms of  mass use. Mr Palan has exceptional quality and potential to start and develop  business ventures from the scratch to the high, where sky is the limit.</string>
+    <string name="str_abt_5">Specific Step has overseas business alliance with Indian Telecom. Indian Tele- com is a monopoly market leader in allocation and circulation of virtual prepaid airtime. This business alliance has proved immense effective in catering refill  service for Indian consumers dealing with prepaid mobile services, DTH service s, and Data card. Efficient strategies, sincerity in service rendering, and meti- culous coordination of have promoted Specific Step to its present leading  position in its business category. The virtue of this virtual business platform is  it is extremely beneficial for the consumers as well as for its business associates  to enjoy optimum profitability, short-term and long-term and thus promotion  Indian business and trading industry to rise at its peak, credit goes to Single  Sim Recharge Software.</string>
+    <string name="str_mob_operator">Mobile Operators</string>
+    <string name="str_dth_operator">DTH Operators</string>
+    <string name="str_contact_us">Contact Detail</string>
+    <string name="str_company_name">Sri Samarth Utility Services Pvt.Ltd</string>
+    <string name="str_company_address">G-107,Titanium City Center,Prahlad Nagar Road,Ahmedabad</string>
+    <string name="str_company_mail">enquiry@specificstep.com</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="str_phone_number">+912832 251095</string>
+    <string name="str_user_name">User Name</string>
+    <string name="str_pwd">Password</string>
+    <string name="str_login">Log IN</string>
+    <string name="str_remember_me">Remember Me</string>
+    <string name="str_forgot_pwd"><u>Forgot Password</u></string>
+    <string name="str_recharge">Recharge</string>
+    <string name="str_payment_req">Payment Request</string>
+    <string name="str_recent_trans">Recent Transaction</string>
+    <string name="str_trans_search">Transaction Search</string>
+    <string name="str_fund_trans">Fund Transfer</string>
+    <string name="str_complain">Complain</string>
+    <string name="str_report">Reports</string>
+    <string name="str_contact">Contact Us</string>
+    <string name="str_my_account">My Account</string>
+    <string name="str_setting">Settings</string>
+    <string name="str_change_pwd">Change Password</string>
+    <string name="str_logout">Log Out</string>
+    <string name="str_home">Home</string>
+    <string name="str_mo_no">Mobile No. or Smart No.</string>
+    <string name="str_recharge_type">Recharge Type</string>
+    <string name="str_amount">Amount</string>
+    <string name="str_circle">Circle</string>
+    <string name="str_proceed_to_recharge">Proceed to Recharge</string>
+    <string name="str_req_amt">Request Amount</string>
+    <string name="str_remarks">Remarks</string>
+    <string name="str_branch">Branch</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_order_id">Order Id: </string>
+    <string name="str_product">Product: </string>
+    <string name="str_product_name">Mobile</string>
+    <string name="str_amount_label">Amount: </string>
+    <string name="str_amount_no">200</string>
+    <string name="str_phone_no">+919987123452</string>
+    <string name="str_date_time">March 17,2016 12:38 PM</string>
+    <string name="str_trans_status">Success</string>
+    <string name="str_order_id1">043321</string>
+    <string name="str_date">Date</string>
+    <string name="str_note_type">Note Type :</string>
+    <string name="str_note_type_value">Debit</string>
+    <string name="str_issued">Issued :</string>
+    <string name="str_issued_name">Mark</string>
+    <string name="str_remark">Remark : </string>
+    <string name="str_remark_status"> Failure</string>
+    <string name="str_desc">Description</string>
+    <string name="str_search">Search</string>
+    <string name="str_recharge_id">Recharhe Id</string>
+    <string name="str_gen_settings">General Settings</string>
+    <string name="str_save">Save</string>
+    <string name="str_long_code_no">Long Code Number</string>
+    <string name="str_email_or_uname">Email or Username or Mobile No</string>
+    <string name="str_otp">OTP</string>
+    <string name="str_company">Company: </string>
+    <string name="str_service_type">Service:</string>
+    <string name="Rs">\u20B9</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="register_app">Register App</string>
+
+    <string name="alert_servicer_down">No Data Found</string>
+    <string name="str_smart_no">Smart Number</string>
+
+    <string name="str_trans_complain">Complain</string>
+
+    <string-array name="bank_array">
+        <item>Select Your Bank</item>
+        <item>Dena Bank</item>
+        <item>State Bank Of India</item>
+        <item>HDFC</item>
+        <item>Bank of Baroda</item>
+        <item>Axis Bank</item>
+    </string-array>
+
+    <string-array name="uname_array">
+        <item>Select User</item>
+        <item>User 1</item>
+        <item>User 2</item>
+        <item>User 3</item>
+        <item>User 4</item>
+        <item>User 5</item>
+    </string-array>
+    <string-array name="payment_mode_array">
+        <item>Select Payment Mode</item>
+        <item>Net Banking</item>
+        <item>Credit or Debit</item>
+    </string-array>
+
+    <string-array name="under_section_array">
+        <item>Undersection</item>
+        <item>Undersection one</item>
+        <item>Undersection Two</item>
+    </string-array>
+    <string-array name="recharge_type_array">
+        <item>Mobile Recharge</item>
+        <item>DTH Recharge</item>
+    </string-array>
+    <string-array name="circle_array">
+        <item>Circle</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="title_activity_recent_transactio">RecentTransactionActivity</string>
+    <string name="title_activity_recent_trasaction">RecentTransaction</string>
+    <string name="title_activity_search_transaction">SearchTransaction</string>
+    <string name="remember_me_message_before_app_name">Are you sure want to have</string>
+    <string name="remember_me_message_after_app_name">remember your password ? This will significantly decrease the security of your</string>
+    <string name="remember_me_message__act_after_app_name">Account !</string>
+
+    <string name="str_change_password">Change Password</string>
+    <string name="str_old_password">Old Password</string>
+    <string name="str_new_password">New Password</string>
+    <string name="str_confirm_password">Confirm Password</string>
+    <string name="str_notification">Notification</string>
+    <string name="str_cashbook">Cash Book</string>
+    <string name="str_complainReport">Complain Report</string>
+    <string name="str_account_ledger">Account Ledger</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="str_add_complain">Write your complain here.</string>
+
+    <string-array name="complain_arrays">
+        <item>Recharge Status Success but not get benifit</item>
+    </string-array>
+</resources>

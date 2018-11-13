@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext_round"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/txt_ParentUser_FirmName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:id="@+id/txt_ParentUser_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:id="@+id/txt_ParentUser_MobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:id="@+id/txt_ParentUser_UserType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:textSize="@dimen/content_text_size"
+                android:textColor="@color/colorBlack"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_ParentUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorWhite"
+                android:visibility="gone"/>
+
+            <ListView
+                android:id="@+id/lst_ParentUser_ParentUserDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/colorWhite"
+                android:dividerHeight="0dp"
+                android:scrollbarThumbVertical="@drawable/custom_scroll"/>
+
+            <TextView
+                android:id="@+id/txt_ParentUser_NoMoreData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="No more data"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/content_text_size"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

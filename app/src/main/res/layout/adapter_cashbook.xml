@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Id : "
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_Adapter_CashBook_PaymentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_order_id1"
+            android:singleLine="false"
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/list_content_small_space_size"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.30"
+            android:text="Payment From : "
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_Adapter_CashBook_PaymentFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:text="@string/str_order_id1"
+            android:singleLine="false"
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/list_content_small_space_size"
+        android:padding="2dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.30"
+            android:text="Payment To : "
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_Adapter_CashBook_PaymentTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:text="@string/str_order_id1"
+            android:textSize="@dimen/content_text_size"
+            android:singleLine="false"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/list_content_small_space_size"
+        android:padding="2dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.30"
+            android:text="User type : "
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_Adapter_CashBook_UserType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:text="@string/str_order_id1"
+            android:textSize="@dimen/content_text_size"
+            android:singleLine="false"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/list_content_small_space_size"
+        android:padding="2dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.30"
+            android:text="Amount  : "
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_Adapter_CashBook_Amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:text="@string/str_order_id1"
+            android:textSize="@dimen/content_text_size"
+            android:singleLine="false"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/list_content_small_space_size"
+        android:padding="2dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.30"
+            android:text="Balance : "
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_Adapter_CashBook_Balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:text="@string/str_order_id1"
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/list_content_small_space_size"
+        android:padding="2dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.30"
+            android:text="Remarks : "
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_Adapter_CashBook_Remarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:text="@string/str_order_id1"
+            android:textSize="@dimen/content_text_size"
+            android:singleLine="false"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/list_content_small_space_size"
+        android:padding="2dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.30"
+            android:text="Date  : "
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_Adapter_CashBook_DateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:text="@string/str_order_id1"
+            android:textSize="@dimen/content_text_size"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/signup_content_box_margin"
+    android:weightSum="2"
+    tools:context="specificstep.com.onus.Activities.RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/signup_content_box_margin"
+        android:layout_weight="0.5"
+        android:background="@color/colorLayoutBackground"
+        android:gravity="center"
+        android:padding="@dimen/signup_content_box_padding"
+        android:weightSum="1">
+
+
+        <EditText
+            android:id="@+id/edt_uname_or_email_act_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_bg"
+            android:gravity="center_vertical"
+            android:hint="@string/str_email_or_uname"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress|text"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/signup_text_field_bottom_padding"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="@dimen/content_text_size" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reg_app_act_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sign_up_button_top_margin"
+        android:background="@drawable/edt_login_btn"
+        android:text="@string/register_app"
+        android:textSize="@dimen/btn_content_text_small_size" />
+
+</LinearLayout>

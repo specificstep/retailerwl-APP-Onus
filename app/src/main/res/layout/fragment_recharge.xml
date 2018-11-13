@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_Recharge_MainRechargeView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="@color/colorLayoutBackground"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="Mobile Recharge"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/ll_Recharge_MobileNumberView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edt_bg"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="-7px"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/ic_mobile"/>
+
+                <EditText
+                    android:id="@+id/edt_mo_no_fragment_recharge"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.4"
+                    android:background="@color/transparent"
+                    android:hint="Mobile No."
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:paddingBottom="10dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="20dp"/>
+
+                <ImageView
+                    android:id="@+id/img_Recharge_AllContacts"
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="-7px"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/ic_contact_list"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_Recharge_CompanyView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/edt_bg"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:text="Company : "
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/tv_company_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:text="Change" />
+
+                <TextView
+                    android:id="@+id/tv_company_name_fragment_mobile_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:padding="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"/>
+
+                <ImageButton
+                    android:id="@+id/tv_change_company"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.2"
+                    android:background="@drawable/ic_mode_edit_black_24dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Change" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_Recharge_ProductView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_bg"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="Product : "
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tv_product_name_fragment_mobile_recharge"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:padding="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:id="@+id/tv_change_product"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.3"
+                    android:background="@drawable/edt_login_btn"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Change"
+                    android:textColor="@android:color/black"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_Recharge_NameView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edt_bg"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="-7px"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/ic_person_white"/>
+
+                <EditText
+                    android:id="@+id/edt_Recharge_Name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.7"
+                    android:background="@color/transparent"
+                    android:hint="Name"
+                    android:maxLines="1"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/circle_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_bg"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_circle"/>
+
+                <Spinner
+                    android:id="@+id/sp_circle_fragment_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/white"
+                    android:entries="@array/circle_array"
+                    android:padding="5dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_Recharge_AmountView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_bg"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/ic_rs"/>
+
+                <EditText
+                    android:id="@+id/edt_amt_fragment_recharge"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.7"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/str_amount"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:paddingBottom="10dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/txt_Recharge_BrowsePlans"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/edt_login_btn"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="View Plans"
+                    android:textColor="@color/colorBlack"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_Recharge_IsCreditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_bg"
+                android:weightSum="3">
+
+                <CheckBox
+                    android:id="@+id/chk_Recharge_IsCredit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="3dp"
+                    android:buttonTint="@android:color/white"
+                    android:text="Is Credit"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_proceed_fragment_recharge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edt_login_btn"
+            android:textSize="20dp"
+            android:text="@string/str_proceed_to_recharge"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

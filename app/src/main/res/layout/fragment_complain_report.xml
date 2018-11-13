@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:id="@+id/lv_complain_report_fragment_complain_trans"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@color/white"
+            android:dividerHeight="2dp"
+            android:scrollbarThumbVertical="@drawable/custom_scroll"></ListView>
+
+        <TextView
+            android:id="@+id/tv_no_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="No more data"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:visibility="gone"
+            android:textSize="@dimen/content_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

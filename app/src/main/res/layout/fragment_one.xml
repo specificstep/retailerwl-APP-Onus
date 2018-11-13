@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_Plan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lst_Plan_Plans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/colorWhite"
+                android:dividerHeight="1dp"
+                android:scrollbarThumbVertical="@drawable/custom_scroll"/>
+
+            <TextView
+                android:id="@+id/txt_Plan_NoMoreData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="No more plan"
+                android:textSize="@dimen/content_title_text_size"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorWhite"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

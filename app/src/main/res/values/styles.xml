@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/ActionButtonStyle</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:spinnerDropDownItemStyle">@style/mySpinnerItemStyle</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="textStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="footerTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="editTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="ActionButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton">
+        <item name="android:minWidth">0dip</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:icon">@drawable/ic_act_bar</item>
+    </style>
+
+    <style name="LargeTitleTheme">
+        <item name="android:windowTitleSize">40dip</item>
+    </style>
+
+    <style name="MyAlertDialogTheme" parent="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowFixedWidthMajor">90%</item>
+        <item name="windowFixedWidthMinor">90%</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--Transparent dialog -->
+
+    <style name="TransparentProgressDialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!--Spinner Item Style-->
+    <style name="mySpinnerItemStyle" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+
+</resources>

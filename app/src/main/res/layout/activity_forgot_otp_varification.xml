@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorLayoutBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="30dp">
+
+
+        <EditText
+            android:id="@+id/edt_otp_act_reg_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_bg"
+            android:drawablePadding="18dp"
+            android:gravity="center_vertical"
+            android:hint="@string/str_otp"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="@dimen/content_text_size"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reg_app_act_reg_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edt_login_btn"
+        android:text="@string/verify_otp"
+        android:textSize="@dimen/btn_content_text_small_size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_Verify_ResendCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/edt_login_btn"
+            android:text="Resend SMS"
+            android:textSize="@dimen/btn_content_text_small_size"/>
+
+        <TextView
+            android:id="@+id/txt_Verify_Timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="@color/colorWhite"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="Timer"
+            android:textSize="@dimen/content_text_small_size"/>
+    </LinearLayout>
+
+</LinearLayout>

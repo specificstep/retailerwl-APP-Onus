@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLayoutBackground"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="Confirm Recharge"
+        android:textColor="@android:color/white"
+        android:textSize="22dp"
+        android:textStyle="bold" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Company : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_company_name_confirm_dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="retailer@gmail.com"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Product : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_product_name_confirm_dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="retailer@gmail.com"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/ev_mo_no_confirm_dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Mobile : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_mo_no_confirm_dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="9925049355"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/circle_confirm_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="State : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_state_confirm_dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="Gujarat"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Amount : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_amount_confirm_dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="100"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_cancel_confirm_dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/colorLayoutBackground"
+                android:text="Cancel"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/btn_content_text_small_size" />
+
+
+            <Button
+                android:id="@+id/btn_confirm_confirm_dialog"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorLayoutBackground"
+                android:text="Confirm"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/btn_content_text_small_size" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

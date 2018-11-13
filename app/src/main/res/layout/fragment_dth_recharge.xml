@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorLayoutBackground"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DTH Recharge"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_bg"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Company : "
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/content_title_text_size"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tv_company_name_fragment_DTH_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:padding="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/content_text_small_size"/>
+
+                <ImageButton
+                    android:id="@+id/tv_change_company"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.35"
+                    android:background="@drawable/ic_mode_edit_black_24dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Change" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edt_bg"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Product : "
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/content_title_text_size"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tv_product_name_fragment_DTH_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:padding="3dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"/>
+
+                <ImageButton
+                    android:id="@+id/tv_change_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.35"
+                    android:background="@drawable/ic_mode_edit_black_24dp"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Change" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/edt_bg"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/ic_dth_recharge"/>
+
+                <EditText
+                    android:id="@+id/edt_mo_no_fragment_recharge"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.4"
+                    android:background="@drawable/edt_bg"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/str_smart_no"
+                    android:inputType="number"
+                    android:paddingBottom="10dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="@dimen/content_title_text_size"/>
+
+                <ImageView
+                    android:id="@+id/img_DTHRecharge_AllContacts"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="-7px"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/ic_contact_list"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_DTHRecharge_NameView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edt_bg"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="-7px"
+                    android:layout_weight="0.3"
+                    android:src="@drawable/ic_person_white"/>
+
+                <EditText
+                    android:id="@+id/edt_DTHRecharge_Name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.7"
+                    android:background="@color/transparent"
+                    android:hint="Name"
+                    android:maxLines="1"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="@dimen/content_title_text_size"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/circle_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edt_bg"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_circle"/>
+
+                <Spinner
+                    android:id="@+id/sp_circle_fragment_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/white"
+                    android:entries="@array/circle_array"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_bg">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ic_rs"/>
+
+
+                <EditText
+                    android:id="@+id/edt_amt_fragment_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/str_amount"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:paddingBottom="10dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="@dimen/content_title_text_size"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_DTHRecharge_IsCreditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/edt_bg"
+                android:weightSum="3">
+
+                <CheckBox
+                    android:id="@+id/chk_DTHRecharge_IsCredit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="3dp"
+                    android:buttonTint="@android:color/white"
+                    android:text="Is Credit"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/content_title_text_size"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_proceed_fragment_recharge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edt_login_btn"
+            android:padding="1dp"
+            android:textSize="@dimen/btn_content_text_small_size"
+            android:text="@string/str_proceed_to_recharge"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

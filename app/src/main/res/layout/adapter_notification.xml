@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txt_Item_Notification_Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Id"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/white"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txt_Item_Notification_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/txt_Item_Notification_Message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/txt_Item_Notification_DateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DateTime"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/txt_Item_Notification_ReadDateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ReadDateTime"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_Notification_MessageRead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_tick"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clickable="true"
+              android:background="@drawable/bg_gradient"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_TrasactionSearch_SearchSelection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorLayoutBackground"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_bg"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <Spinner
+                android:id="@+id/sp_year_fragment_trans_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/white"></Spinner>
+
+            <Spinner
+                android:id="@+id/sp_month_fragment_trans_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/white"></Spinner>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_mo_no_fragment_trans_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edt_bg"
+            android:hint="@string/str_mo_no"
+            android:inputType="number"
+            android:maxLength="18"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="15dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_TrasactionSearch_SearchResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/colorLayoutBackground"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_TrasactionSearch_SelectedYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:text="Year"
+                android:textColor="@color/colorWhite"/>
+
+            <TextView
+                android:id="@+id/txt_TrasactionSearch_SelectedMonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:text="Month"
+                android:textColor="@color/colorWhite"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_TrasactionSearch_SelectedMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Mobile no"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_search_fragment_trans_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edt_login_btn"
+        android:text="@string/str_search"
+        android:textColor="@color/colorServiceText"/>
+
+    <LinearLayout
+        android:id="@+id/ll_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_margin="5dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorWhite"/>
+
+        <ListView
+            android:scrollbarThumbVertical="@drawable/custom_scroll"
+            android:id="@+id/lv_trans_search_fragment_trans_search"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@color/colorWhite"
+            android:dividerHeight="2dp"></ListView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No more data"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:visibility="gone"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_trans_search_fragment_trans_search"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</LinearLayout>

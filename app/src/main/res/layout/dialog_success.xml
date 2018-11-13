@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLayoutBackground"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Recharge Completed"
+            android:textColor="@android:color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="Recharge Id : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_recharge_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:singleLine="false"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="Recharge Status : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_recharge_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="Pending"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="Date and Time : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_date_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:textColor="@android:color/black"
+                android:singleLine="false"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/success_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="Number : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_mo_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="9925049355"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="Company : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_company"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="9925049355"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="Product : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_product"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="14"
+                android:singleLine="false"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:text="Amonunt : "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:text="100"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_title_text_size" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="18dp"
+            android:background="@color/colorLayoutBackground"
+            android:text="OK"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_content_text_small_size"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</ScrollView>

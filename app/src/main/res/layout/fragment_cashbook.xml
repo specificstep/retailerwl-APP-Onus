@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorLayoutBackground"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <EditText
+                        android:id="@+id/from_date_CashBook"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="@drawable/edt_bg"
+                        android:backgroundTint="@android:color/white"
+                        android:focusable="false"
+                        android:textSize="@dimen/content_text_size"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white"></EditText>
+
+                    <EditText
+                        android:id="@+id/to_date_CashBook"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="@drawable/edt_bg"
+                        android:backgroundTint="@android:color/white"
+                        android:focusable="false"
+                        android:textSize="@dimen/content_text_size"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white"></EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <EditText
+                        android:id="@+id/from_date_CashBook_Test"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edt_bg"
+                        android:backgroundTint="@android:color/white"
+                        android:focusable="false"
+                        android:textSize="@dimen/content_text_size"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white"></EditText>
+
+                    <EditText
+                        android:id="@+id/to_date_CashBook_Test"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edt_bg"
+                        android:backgroundTint="@android:color/white"
+                        android:focusable="false"
+                        android:textSize="@dimen/content_text_size"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white"></EditText>
+
+                </LinearLayout>
+
+                <DatePicker
+                    android:visibility="gone"
+                    android:id="@+id/dpResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_search_CashBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edt_login_btn"
+                android:text="@string/str_search"
+                android:textSize="@dimen/btn_content_text_small_size"
+                android:textColor="@color/colorServiceText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_recycler_view_CashBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="10dp"
+            android:layout_weight="8"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorWhite"/>
+
+            <ListView
+                android:id="@+id/lv_trans_search_CashBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:scrollbarThumbVertical="@drawable/custom_scroll"
+                android:divider="@color/colorWhite"
+                android:dividerHeight="2dp"></ListView>
+
+            <TextView
+                android:id="@+id/txt_NoMoreData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No more data"
+                android:visibility="gone"
+                android:textSize="@dimen/content_text_size"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\5092c1510d9517d5219480fcc1426c407e4b75e4\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-bd7b96aea97fc947598673f4206ae367123c814f.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\a7801c3becc5edcce0908556c3c269e6e501b84f\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4af208f1004f061d8c1fbed0573216b08cc82594.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.7.3\1499b854ae9f370409792db5af1b552dc7d9682f\jackson-core-2.7.3.jar"
+        revision="25.0.1"
+        sha1="1499b854ae9f370409792db5af1b552dc7d9682f">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\jackson-core-2.7.3-08fa91e1c8cb3bc5bf9632556a6ce46cc264e39a.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\388694dcd695932d3de017862ec88fcc26c73e5c\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="6ef01b734d9d89338a932928c237c7b741f007af">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-695aa92cb64e06f27d6de0b6bb5beac3a853e436.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        revision="25.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.2.0-baf8fc8954c7ee0158e75e6e265d3148d36771b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\0f1d1b6766b1d0f93b47801a85e74dd20349c7f9\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-22a9eb1c7839571131904a6ba058c466f3ab0e2d.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\a018862278350d2915316b1c55dc939ad6c61183\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b2e0cf25d9027d6867245b759aa58894988d3eb3.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\03521397a0114864d0ea617b6c9774b8984d5566\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="b15c6ded887ad967e20bb335c1a121b253c04dce">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-0ca887388c59209781f6f2cc492448534776e0d9.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\c921f43a6ef2f5199cea0a419a33631294f83b1f\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4d1dfc657fe5cebf9fe235363d81d0f17f68c293.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.7.3\f12e6cd05cbaecd74d16e685d45b627732939e42\jackson-databind-2.7.3.jar"
+        revision="25.0.1"
+        sha1="f12e6cd05cbaecd74d16e685d45b627732939e42">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\jackson-databind-2.7.3-a40e34d7425f658ba6047a1267e2c8d4769e831b.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\1336dec0c23215597a141e8614435894c5af295f\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b88675ab3450b6774ca005b03b6312a061544aaf.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\247656690826d49474fe458e8533e2807cd2ab52\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-f63f59221d3171a9178a15f13f6a7c80374ceb9d.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.7.3\e250c11c1329c7b6b62442a9743befad78be553c\jackson-annotations-2.7.3.jar"
+        revision="25.0.1"
+        sha1="e250c11c1329c7b6b62442a9743befad78be553c">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\jackson-annotations-2.7.3-21cbccfd9e55ea39676afc68d005cfb291290863.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        revision="25.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\picasso-2.5.2-bbce66c1a355a2429bf07a9bf7f6c6308183f2dc.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\bb491e83669d33c4fab5dddb2a942ba50d257aeb\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-2f799419be97e9103d81a3a2f1389f2e8ae0d19a.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\4aa4bc768d47f45f04e311080cc50c73081fd70c\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-27177412beab243ad44b1344ac2b7d8376e2c9e4.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\9f7a026e171fc603eed6b9ef745da202a7367b92\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-355a82ea71dac670d285277559d5c752bd1810c7.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\51129779157e63c54539fa8512e89d7e811823db\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="b02499ae3fa50953d32e666473fcd4935edb4fa7">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-ef6c19c48179ba2c28424a6d6a3db686f680b5af.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\AppData\Local\Android\Sdk\platforms\android-26\android.jar"
+        revision="25.0.1"
+        sha1="18eaee6ff2a1c15c603daafb41277ea9376f30b5">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-ed2d7e00da82a1446fdbf771e16771a48739ef5f.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\fe6764fce10b6a8ff9b2229455bd81fb84678696\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b03c25d08df1a5b57b760338947ce8827f453b37.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.3\bde0667d7414c16ed62d3cfe993cff7f9d732373\constraint-layout-solver-1.1.3.jar"
+        revision="25.0.1"
+        sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.1.3-a12c56474e6eb0333d19869afef1427c74660713.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\669c061bc82123d671f4f09f9248f5ac307c14e8\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-c8540afd2fcff9102ebd49276b3361b45e7182f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\1406ef09aca00f9f8ba06cc49d4206bb72d6ced5\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-92363749b9e17c65cb06c15dce674f6306d65087.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\a4da8c5fde7df352df966686bd19059e7cf8047d\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="a76b07a416089228adc86fecc86d0a6e2d71e409">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b1204442984a3ad2837dcd9e9eae4fbf16cf5b2e.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\ab7b8a0fbd53de93a19b07a6f2a5ed0e9fddd5bb\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-9daf3c5152d80b8d5c9bc97b99acaa9ed04c9921.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\43cbb89ec66c5881f3ec1121a712a9897ecee5e8\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-69d3eccd660faae32104232af30aba24f4123047.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\087fc26e509790fd6ac8f25ba3b748ae8e7977af\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-6aaf3cdced2cfcd0ad5e11a34e9c87158b242f8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\a5b1fb32ac93e9606fc8a9ab0d7cba973fffe36c\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="cfa40983f47c1b9a9f2ac940ee6da130cd03c6e1">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b0f03f3be7794a9fb78ac54b688cc5c185315f52.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\AppData\Local\Android\Sdk\platforms\android-26\optional\org.apache.http.legacy.jar"
+        revision="25.0.1"
+        sha1="d5b8c556427a60ed5f7f0abc415555de7bbba1ad">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-d3b7777ee9a00851d621d8b07a55689e5a25d837.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\aa5e198c415eb8c052f067b632d6c49abc1c77f2\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-b51dd83cd43f51b3f86459f49be81e5b20d98185.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\ae10985e0d54decfd766d3385d93a19eeab41183\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-2bd2d6f25b9371c5067de2e658decad328b9c78f.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\5f4c292c754f9b243c269ba35028951f86e0f165\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="4803488041c259d0b6d81ca4255379ab8a7e8dfe">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a27b2006c866797e658fb44daba988550ec297d8.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\5b1cfd46d0f85144ca5bd81dd69763afff1c5bc7\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-52752bcabf7faa3581dc89e1cea5cb833df6549c.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\803339a3284496370b22782f9f01772f124cb810\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-cb3ccdd480c5892f9802737b9d766475797f3ccd.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\f5a5fd023488a8ab389edb208d2657ca9fd7876a\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="7780b9aba418f4e22878f48cd77372a7688bb0b7">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7a513686b39461046234e607ec0cc24da5a10402.jar" />
+    </item>
+    <item
+        jar="C:\Users\ssuspl-android\.android\build-cache\82b25d572973063fe4d826769bf3a2d3757cdcef\output\jars\classes.jar"
+        revision="25.0.1"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\ssuspl-android\Desktop\Backup\NativeOnus\retailerwl-APP-Onus\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-caac0bb5ab3d91fcf4152982036860b74d624308.jar" />
+    </item>
+
+</items>

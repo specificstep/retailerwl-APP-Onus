@@ -1,0 +1,254 @@
+{
+  "project_info": {
+    "project_number": "726499290372",
+    "firebase_url": "https://rechargeengine-53c95.firebaseio.com",
+    "project_id": "rechargeengine-53c95",
+    "storage_bucket": "rechargeengine-53c95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726499290372:android:91bb1060c52b7580",
+        "android_client_info": {
+          "package_name": "specificstep.com.princetelecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726499290372-sjhcupdgsha9canof5f45tb5f479goaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNxIE8HZnzi9wPOell_i5xtRR1Zvay_fo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726499290372:android:f49f7da73ec9d305",
+        "android_client_info": {
+          "package_name": "specificstep.com.harshbussiness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726499290372-sjhcupdgsha9canof5f45tb5f479goaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNxIE8HZnzi9wPOell_i5xtRR1Zvay_fo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726499290372:android:bfeb689237de906a",
+        "android_client_info": {
+          "package_name": "specificstep.com.onus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726499290372-sjhcupdgsha9canof5f45tb5f479goaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNxIE8HZnzi9wPOell_i5xtRR1Zvay_fo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726499290372:android:38a287cbfa2d37a3",
+        "android_client_info": {
+          "package_name": "specificstep.com.myatozservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726499290372-fjpcklj8q7lse455apojrlv5opd9d7ph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "specificstep.com.AtoZ_ret",
+            "certificate_hash": "1492DD99F36ACCB7D8D5A6CB440DCD2551A7B4BD"
+          }
+        },
+        {
+          "client_id": "726499290372-sjhcupdgsha9canof5f45tb5f479goaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNxIE8HZnzi9wPOell_i5xtRR1Zvay_fo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726499290372-sjhcupdgsha9canof5f45tb5f479goaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726499290372:android:876c60439cd6eaf5",
+        "android_client_info": {
+          "package_name": "com.specificstep_dist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726499290372-m55avnjdl4pe1djke770njc33trj7cnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.specificstep_dist",
+            "certificate_hash": "1492DD99F36ACCB7D8D5A6CB440DCD2551A7B4BD"
+          }
+        },
+        {
+          "client_id": "726499290372-sjhcupdgsha9canof5f45tb5f479goaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNxIE8HZnzi9wPOell_i5xtRR1Zvay_fo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726499290372-sjhcupdgsha9canof5f45tb5f479goaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726499290372:android:248379554e2d43dc",
+        "android_client_info": {
+          "package_name": "specificstep.com.metroenterprise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726499290372-sjhcupdgsha9canof5f45tb5f479goaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNxIE8HZnzi9wPOell_i5xtRR1Zvay_fo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726499290372:android:2cb8a51b20108054",
+        "android_client_info": {
+          "package_name": "specificstep.com.jyoutsnaweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726499290372-sjhcupdgsha9canof5f45tb5f479goaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNxIE8HZnzi9wPOell_i5xtRR1Zvay_fo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

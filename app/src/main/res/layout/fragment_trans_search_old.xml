@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg_gradient"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="15dp"
+                android:layout_weight="3"
+                android:background="@color/colorLayoutBackground"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.7"
+                    android:background="@drawable/edt_bg"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Spinner
+                        android:id="@+id/sp_year_fragment_trans_search"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@android:color/white"></Spinner>
+
+                    <Spinner
+                        android:id="@+id/sp_month_fragment_trans_search"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@android:color/white"></Spinner>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edt_mo_no_fragment_trans_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.3"
+                    android:background="@drawable/edt_bg"
+                    android:hint="@string/str_mo_no"
+                    android:inputType="number"
+                    android:maxLength="18"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="8dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_search_fragment_trans_search"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/edt_login_btn"
+                android:text="@string/str_search"
+                android:textColor="@color/colorServiceText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="10dp"
+            android:layout_weight="6"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorWhite" />
+
+            <ListView
+                android:scrollbarThumbVertical="@drawable/custom_scroll"
+                android:id="@+id/lv_trans_search_fragment_trans_search"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:divider="@color/colorWhite"
+                android:dividerHeight="2dp"></ListView>
+
+            <TextView
+                android:text="No more data"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/textView2" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_trans_search_fragment_trans_search"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="gone"></android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
